@@ -2,14 +2,77 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/images/vite.svg" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="/images/favicon-32x32.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Vite SASS Boilerplate</title>
+		<title>Frontend Mentor | NFT preview card component</title>
 	</head>
+
 	<body>
 		<main>
-			<h1>Vite SASS Boilerplate</h1>
+			<section class="card">
+				<div class="card__image">
+					<img src="images/image-equilibrium.jpg" alt="Image Equilibrium" />
+					<div class="card__image-overlay">
+						<svg class="view-icon">
+							<use
+								xlink:href="/images/icon-view.svg#view"
+								href="/images/icon-view.svg#view"></use>
+						</svg>
+					</div>
+				</div>
+
+				<div class="card__info">
+					<h1 class="card__info-title"><a href="#">Equilibrium #3429</a></h1>
+					<p class="card__info-desc">
+						Our Equilibrium collection promotes balance and calm.
+					</p>
+
+					<div class="card__info-balance">
+						<div class="ethereum">
+							<svg class="icon">
+								<use
+									xlink:href="/images/icon-ethereum.svg#ethereum"
+									href="/images/icon-ethereum.svg#ethereum"></use>
+							</svg>
+							<p>0.041 ETH</p>
+						</div>
+
+						<div class="clock">
+							<svg class="icon">
+								<use
+									xlink:href="images/icon-clock.svg#clock"
+									href="/images/icon-clock.svg#clock"></use>
+							</svg>
+							<p>3 days left</p>
+						</div>
+					</div>
+
+					<div class="card__info-owner">
+						<img src="images/image-avatar.png" alt="Avatar" />
+						<p class="card__info-owner-name">
+							Creation of <a href="#">Jules Wyvern</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="attribution">
+					Challenge by
+					<a
+						href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U"
+						target="_blank"
+						>Frontend Mentor</a
+					>. Coded by
+					<a href="https://github.com/siswantodev/fem-nft-preview-card"
+						>Agus Siswanto</a
+					>.
+				</div>
+			</section>
 		</main>
+
 		<script type="module" src="/src/js/main.js"></script>
 	</body>
 </html>
