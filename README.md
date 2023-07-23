@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Challenge Solution]()
+- Solution URL: [Frontend Mentor Challenge Solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-using-flexbox-grid-sass-bem-OVNrhaLYfU)
 - Live Site URL: [NFT Preview Card Website](https://fem-nft-preview-card-good.netlify.app)
 
 ## My process
